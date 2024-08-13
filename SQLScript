@@ -1,11 +1,10 @@
 CREATE TABLE SalesDataFromParquet
 (
-OrderDate DATE,
-Year INT,
+Year VARCHAR(4),
 Region VARCHAR(20),
 SubCategory VARCHAR(30),
 Product VARCHAR(40),
-Price INT,
-Quantiy INT,
-Sales INT
+Price VARCHAR(20),
+Quantity VARCHAR(20),
+Sales VARCHAR(20)
 );
